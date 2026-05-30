@@ -2,8 +2,6 @@
 
 The whole method in one page. Read this once; it's the map for the five stages.
 
-![The Ikigai model: three pillars overlapping into your true calling, realized through the means out in the world.](../assets/ikigai.svg)
-
 ## The claim
 
 "What you want to do" is not out there waiting to be stumbled upon. It is **assembled** from three things you can actually investigate about yourself. Stop searching the outside world for a calling that drops from the sky; instead, *understand yourself* well enough to build it. That's why this is a **self-understanding method**, not a career quiz.
