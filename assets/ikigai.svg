@@ -1,0 +1,55 @@
+<svg viewBox="0 0 820 820" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <!-- background -->
+  <rect x="0" y="0" width="820" height="820" rx="24" fill="#FBF8F2"/>
+  <rect x="5" y="5" width="810" height="810" rx="20" fill="none" stroke="#E7DFD0" stroke-width="2"/>
+
+  <!-- title -->
+  <text x="410" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#2B2B2B">What is Ikigai?</text>
+  <text x="410" y="74" text-anchor="middle" font-size="15" font-style="italic" fill="#7A6F5E">your reason to get up in the morning — where three things overlap</text>
+
+  <!-- the three pillars (translucent so overlaps blend) -->
+  <g stroke-width="2">
+    <circle cx="410" cy="255" r="150" fill="#E3A93C" fill-opacity="0.36" stroke="#C98E22"/>
+    <circle cx="308" cy="432" r="150" fill="#E2674F" fill-opacity="0.34" stroke="#C9543C"/>
+    <circle cx="512" cy="432" r="150" fill="#2FA38C" fill-opacity="0.34" stroke="#1F8A75"/>
+  </g>
+
+  <!-- center: the calling -->
+  <ellipse cx="410" cy="373" rx="78" ry="45" fill="#FBF8F2" fill-opacity="0.82"/>
+  <text x="410" y="372" text-anchor="middle" font-size="25" font-weight="800" letter-spacing="1.5" fill="#B5532A">IKIGAI</text>
+  <text x="410" y="394" text-anchor="middle" font-size="12" font-style="italic" fill="#5E5345">your true calling</text>
+
+  <!-- love x talent lens -->
+  <rect x="346" y="452" width="128" height="24" rx="12" fill="#FBF8F2" fill-opacity="0.8"/>
+  <text x="410" y="469" text-anchor="middle" font-size="12" font-style="italic" fill="#44403A">what you want to do</text>
+
+  <!-- pillar labels (white halo for legibility over blended fills) -->
+  <g text-anchor="middle" paint-order="stroke" stroke="#FBF8F2" stroke-width="3.5" stroke-linejoin="round">
+    <text x="410" y="158" font-size="15" font-weight="600" letter-spacing="0.8" fill="#2B2B2B">WHAT MATTERS TO YOU</text>
+    <text x="410" y="178" font-size="11.5" font-style="italic" stroke-width="3" fill="#6B5E4A">your values — the Why</text>
+
+    <text x="246" y="500" font-size="15" font-weight="600" letter-spacing="0.8" fill="#2B2B2B">WHAT YOU LOVE</text>
+    <text x="246" y="520" font-size="11.5" font-style="italic" stroke-width="3" fill="#6B5E4A">your passions — the What</text>
+
+    <text x="574" y="500" font-size="15" font-weight="600" letter-spacing="0.8" fill="#2B2B2B">WHAT YOU'RE GOOD AT</text>
+    <text x="574" y="520" font-size="11.5" font-style="italic" stroke-width="3" fill="#6B5E4A">your talents — the How</text>
+  </g>
+
+  <!-- arrow to the means -->
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7A6F5E"/>
+    </marker>
+  </defs>
+  <line x1="410" y1="596" x2="410" y2="644" stroke="#7A6F5E" stroke-width="3" marker-end="url(#ah)"/>
+
+  <!-- the means card -->
+  <rect x="120" y="650" width="580" height="94" rx="14" fill="#33302B"/>
+  <text x="410" y="681" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2.5" fill="#E3A93C">THE MEANS</text>
+  <text x="410" y="705" text-anchor="middle" font-size="14.5" fill="#FBF8F2">How you live it in the world: careers, projects, roles, communities</text>
+  <text x="410" y="727" text-anchor="middle" font-size="11.5" font-style="italic" fill="#C9BFA8">Your calling is found inside you — the means are found outside, in the world.</text>
+
+  <!-- formula + source -->
+  <text x="410" y="773" text-anchor="middle" font-size="12.5" fill="#7A6F5E">love × talent = what you want to do&#160;&#160;→&#160;&#160;× your values = your ikigai</text>
+  <text x="410" y="800" text-anchor="middle" font-size="10.5" font-style="italic" fill="#A89B86">Based on Jinpei Yagi's self-understanding method</text>
+</svg>
