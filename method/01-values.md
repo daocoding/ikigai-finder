@@ -47,6 +47,10 @@ Rules:
 
 Offer it to the user as a draft: *"Here's the Work Purpose I'm hearing — does this feel like yours, or is a word off?"* Adjust until they recognize it.
 
+## Reveal & visualize
+
+Don't just present the top 5 — **show how you got there.** After each answer, name the value-keyword(s) you heard and the link (*"from your father and the engineer who mentored you → **Contribution**"*); that running reflection is the audit trail. Then, once ranked, render a **values mind map** — center = the person, branches = their value-themes, leaves = their own words — so they can see the whole shape and correct any word. Mermaid recipe + the keepsake SVG template are in [visuals.md](visuals.md).
+
 ## Before moving on
 
 Summarize: their ranked top values + their Work Purpose, in their language. Get a "yes." Then go to [02-talents.md](02-talents.md).

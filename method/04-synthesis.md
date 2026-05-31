@@ -40,6 +40,10 @@ Examples:
 
 Keep it under ~30 words. **Still no job title.**
 
+## Reveal the logic (diagram it)
+
+This is the step users most distrust as a black box — so **diagram the formula itself**, don't just announce a result. Show the Love × Talent pairings becoming candidates, then the Work-Purpose filter **keeping some and dropping others, with the reason on the dropped ones** — what you *rejected* is half the proof that the filter is real. The flowchart recipe is in [visuals.md](visuals.md). Laying it out is exactly what lets the user say "wait, don't drop that one" or "C2 matters more than C1" — that pushback *is* the audit working, and it's how the calling ends up genuinely theirs.
+
 ## Present it as a hypothesis, not a verdict
 
 This matters as much as the content. Say, in your own words:

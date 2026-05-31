@@ -38,6 +38,10 @@ Big paths take time; the calling shouldn't have to wait. Give them:
 
 These matter because they let the user *test the hypothesis* (Stage 4) immediately and cheaply — living the calling in miniature is how they find out if it fits.
 
+## Reveal & visualize
+
+Each row of the Means table is already a reveal — the **why it fits** column traces every suggestion back to method + domain + purpose, so nothing reads as generic advice. Optionally cap the stage with a simple **one-calling → many-means fan-out** diagram, so "many doors, one calling" is visible at a glance (if one door closes, the calling carries to the next). Recipe in [visuals.md](visuals.md).
+
 ## Close the journey
 
 1. Fill in [`../templates/ikigai-result.md`](../templates/ikigai-result.md) with everything: pillars, work purpose, true calling, means, practices.

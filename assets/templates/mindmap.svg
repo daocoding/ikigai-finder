@@ -1,0 +1,96 @@
+<!--
+  FILLABLE MIND-MAP TEMPLATE  (Jinpei-Yagi-style values / talents / love map)
+
+  HOW TO USE (agent instructions):
+  1. Replace {{CENTER_LINE1}} / {{CENTER_LINE2}} with the map title, e.g. "Wei's" / "Values".
+  2. For each theme cluster, fill {{THEME_n}} and its {{PILL_n_k}} pills with the user's
+     OWN words (the values/talents/domains you surfaced). 2–4 pills per cluster reads best.
+  3. Use only as many clusters as you have themes. DELETE the unused <g class="cluster"> blocks
+     AND their matching <line> connectors. Then reposition the clusters you keep using the ring
+     coordinates below so they're evenly spaced around the center (440,330):
+        3 themes: (440,100) (185,500) (695,500)
+        4 themes: (440,100) (740,330) (440,560) (140,330)
+        5 themes: (440,110) (165,250) (715,250) (210,540) (675,535)   [the layout below]
+        6 themes: (440,100) (715,215) (715,455) (440,560) (165,455) (165,215)
+  4. A pill can hold ~22 characters at this size. Keep words short; this is a glance, not prose.
+  5. This is the KEEPSAKE look. For a quick inline diagram in any chat/GitHub surface, emit a
+     Mermaid `mindmap` instead (see method/visuals.md). Ship whichever fits the surface — or both.
+
+  Canvas 880x660. Central node at (440,330). Edit text only; the geometry already works.
+-->
+<svg viewBox="0 0 880 660" xmlns="http://www.w3.org/2000/svg" font-family="'Avenir Next','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#6FB4E6"/><stop offset="1" stop-color="#4A8FCC"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#9CCDF0" stop-opacity="0.55"/><stop offset="1" stop-color="#9CCDF0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="880" height="660" fill="#FFFFFF"/>
+
+  <!-- connectors: one per cluster, center -> cluster center. Delete any you don't use. -->
+  <g stroke="#C4CAD2" stroke-width="1.6" stroke-dasharray="4 5">
+    <line x1="440" y1="330" x2="440" y2="110"/>
+    <line x1="440" y1="330" x2="165" y2="250"/>
+    <line x1="440" y1="330" x2="715" y2="250"/>
+    <line x1="440" y1="330" x2="210" y2="540"/>
+    <line x1="440" y1="330" x2="675" y2="535"/>
+  </g>
+
+  <!-- ===== CLUSTERS (one <g> each). Fill text; delete extras. ===== -->
+  <g class="cluster"><!-- top -->
+    <ellipse cx="440" cy="110" rx="118" ry="88" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="440" y="46" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">{{THEME_1}}</text>
+    <g font-size="12.5" text-anchor="middle">
+      <rect x="356" y="69"  width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="440" y="86"  fill="#4A8FCC">{{PILL_1_1}}</text>
+      <rect x="356" y="99"  width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="440" y="116" fill="#4A8FCC">{{PILL_1_2}}</text>
+      <rect x="356" y="129" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="440" y="146" fill="#4A8FCC">{{PILL_1_3}}</text>
+    </g>
+  </g>
+
+  <g class="cluster"><!-- left -->
+    <ellipse cx="165" cy="250" rx="100" ry="90" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="165" y="186" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">{{THEME_2}}</text>
+    <g font-size="12.5" text-anchor="middle">
+      <rect x="81" y="209" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="165" y="226" fill="#4A8FCC">{{PILL_2_1}}</text>
+      <rect x="81" y="239" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="165" y="256" fill="#4A8FCC">{{PILL_2_2}}</text>
+      <rect x="81" y="269" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="165" y="286" fill="#4A8FCC">{{PILL_2_3}}</text>
+    </g>
+  </g>
+
+  <g class="cluster"><!-- right -->
+    <ellipse cx="715" cy="250" rx="108" ry="90" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="715" y="186" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">{{THEME_3}}</text>
+    <g font-size="12.5" text-anchor="middle">
+      <rect x="631" y="209" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="715" y="226" fill="#4A8FCC">{{PILL_3_1}}</text>
+      <rect x="631" y="239" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="715" y="256" fill="#4A8FCC">{{PILL_3_2}}</text>
+      <rect x="631" y="269" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="715" y="286" fill="#4A8FCC">{{PILL_3_3}}</text>
+    </g>
+  </g>
+
+  <g class="cluster"><!-- bottom-left -->
+    <ellipse cx="210" cy="540" rx="100" ry="80" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="210" y="484" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">{{THEME_4}}</text>
+    <g font-size="12.5" text-anchor="middle">
+      <rect x="126" y="505" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="210" y="522" fill="#4A8FCC">{{PILL_4_1}}</text>
+      <rect x="126" y="535" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="210" y="552" fill="#4A8FCC">{{PILL_4_2}}</text>
+    </g>
+  </g>
+
+  <g class="cluster"><!-- bottom-right -->
+    <ellipse cx="675" cy="535" rx="108" ry="90" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="675" y="471" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">{{THEME_5}}</text>
+    <g font-size="12.5" text-anchor="middle">
+      <rect x="591" y="494" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="675" y="511" fill="#4A8FCC">{{PILL_5_1}}</text>
+      <rect x="591" y="524" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="675" y="541" fill="#4A8FCC">{{PILL_5_2}}</text>
+      <rect x="591" y="554" width="168" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="675" y="571" fill="#4A8FCC">{{PILL_5_3}}</text>
+    </g>
+  </g>
+
+  <!-- ===== central node (edit the two lines) ===== -->
+  <ellipse cx="440" cy="330" rx="96" ry="66" fill="url(#halo)"/>
+  <ellipse cx="440" cy="330" rx="72" ry="50" fill="url(#core)" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="440" y="324" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">{{CENTER_LINE1}}</text>
+  <text x="440" y="346" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">{{CENTER_LINE2}}</text>
+</svg>

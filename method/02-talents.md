@@ -37,6 +37,10 @@ Take their **single strongest talent** (a ◎) and run the **8 angles** (in [`..
 
 The payoff: you move from "I'm good at helping people" (vague) to **the reusable mechanism** — "I help people by asking the one question that makes them hear themselves." That mechanism is what you'll plug into the synthesis.
 
+## Reveal & visualize
+
+Show your reasoning per talent: the **source story → the talent → why that rating** (*"'three juniors finally understood the system' → making the complex approachable; ◎ because it energized you AND produced a result"*). Then render a **tiered talents map** with the ◎/○/△ tiers as branches so the strongest read first. Recipe in [visuals.md](visuals.md).
+
 ## Before moving on
 
 Summarize their rated talents (◎ first) and, if full path, the one-line mechanism from the deep dive. Get a "yes, that's how I work." Then go to [03-love.md](03-love.md).

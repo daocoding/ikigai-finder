@@ -1,0 +1,72 @@
+<svg viewBox="0 0 880 660" xmlns="http://www.w3.org/2000/svg" font-family="'Avenir Next','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#6FB4E6"/>
+      <stop offset="1" stop-color="#4A8FCC"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#9CCDF0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9CCDF0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="880" height="660" fill="#FFFFFF"/>
+
+  <!-- connectors (drawn first, overdrawn by blobs/core) -->
+  <g stroke="#C4CAD2" stroke-width="1.6" stroke-dasharray="4 5">
+    <line x1="440" y1="330" x2="165" y2="235"/>
+    <line x1="440" y1="330" x2="440" y2="110"/>
+    <line x1="440" y1="330" x2="715" y2="235"/>
+    <line x1="440" y1="330" x2="675" y2="535"/>
+    <line x1="440" y1="330" x2="210" y2="540"/>
+  </g>
+
+  <!-- cluster blobs -->
+  <g>
+    <!-- Contribution -->
+    <ellipse cx="165" cy="235" rx="100" ry="90" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="165" y="171" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">Contribution</text>
+    <!-- Growth -->
+    <ellipse cx="440" cy="110" rx="118" ry="88" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="440" y="46" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">Growth &amp; aliveness</text>
+    <!-- Knowledge -->
+    <ellipse cx="715" cy="235" rx="108" ry="90" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="715" y="171" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">Knowledge shared</text>
+    <!-- Family -->
+    <ellipse cx="675" cy="535" rx="108" ry="90" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="675" y="471" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">Family</text>
+    <!-- Honesty -->
+    <ellipse cx="210" cy="540" rx="100" ry="72" fill="#F1F3F6" stroke="#DADFE5"/>
+    <text x="210" y="494" text-anchor="middle" font-size="18" font-weight="600" fill="#8A909A">Honesty</text>
+  </g>
+
+  <!-- value pills -->
+  <g font-size="12.5" text-anchor="middle">
+    <!-- pill style applied per-rect: white fill, light-blue stroke; blue text -->
+    <!-- Contribution -->
+    <rect x="81" y="194" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="165" y="211" fill="#4A8FCC">Helps people</text>
+    <rect x="81" y="224" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="165" y="241" fill="#4A8FCC">Remembered for impact</text>
+    <rect x="81" y="254" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="165" y="271" fill="#4A8FCC">Pays it forward</text>
+    <!-- Growth -->
+    <rect x="356" y="69" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="440" y="86" fill="#4A8FCC">Feel alive</text>
+    <rect x="356" y="99" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="440" y="116" fill="#4A8FCC">Mastery</text>
+    <rect x="356" y="129" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="440" y="146" fill="#4A8FCC">Don't stagnate</text>
+    <!-- Knowledge -->
+    <rect x="631" y="194" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="715" y="211" fill="#4A8FCC">Clarity</text>
+    <rect x="631" y="224" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="715" y="241" fill="#4A8FCC">Teaching</text>
+    <rect x="631" y="254" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="715" y="271" fill="#4A8FCC">Generosity</text>
+    <!-- Family -->
+    <rect x="591" y="494" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="675" y="511" fill="#4A8FCC">Provide &amp; protect</text>
+    <rect x="591" y="524" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="675" y="541" fill="#4A8FCC">Dependable</text>
+    <rect x="591" y="554" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="675" y="571" fill="#4A8FCC">Honor sacrifice</text>
+    <!-- Honesty -->
+    <rect x="126" y="513" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="210" y="530" fill="#4A8FCC">Face hard things</text>
+    <rect x="126" y="545" width="168" height="26" rx="13" fill="#FFFFFF" stroke="#BBD8EE"/><text x="210" y="562" fill="#4A8FCC">No pretending</text>
+  </g>
+
+  <!-- central node -->
+  <ellipse cx="440" cy="330" rx="96" ry="66" fill="url(#halo)"/>
+  <ellipse cx="440" cy="330" rx="72" ry="50" fill="url(#core)" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="440" y="324" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Wei's</text>
+  <text x="440" y="346" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Values</text>
+</svg>

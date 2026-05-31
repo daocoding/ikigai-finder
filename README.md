@@ -35,6 +35,18 @@ By the end you'll have, written down:
 
 ---
 
+## You can watch every step
+
+This isn't a black box that hands down a verdict. The agent **reveals its reasoning as it goes** — how your answers become keywords, keywords become values, love × talent become candidates, and which candidates the Work Purpose *keeps or drops, and why* — and **draws what it builds** at each stage. You see yourself take shape, and you can correct any move.
+
+Here's the values mind map from a real run (the [AI-era engineer walkthrough](examples/walkthrough-fast-ai-engineer.md)):
+
+![Example values mind map: a central "Wei's Values" node with five clusters — Contribution, Growth & aliveness, Knowledge shared, Family, Honesty — each holding the person's own value-words.](assets/examples/values-mindmap-example.svg)
+
+Every stage ends in a picture like this; the synthesis step even diagrams the *formula* — which candidates survived the filter and which were set aside. How it's done: [`method/visuals.md`](method/visuals.md).
+
+---
+
 ## How to use it
 
 ### Option A — an agent with file access (Claude Code, Cursor, Cline, etc.)
@@ -84,6 +96,7 @@ method/
   04-synthesis.md    ← Two-step synthesis → your True Calling.
   05-means.md        ← Practical paths to live it (careers welcome here).
   misconceptions.md  ← The 5 myths to drop before you start.
+  visuals.md         ← How to reveal each step + render diagrams (Mermaid / SVG).
 questionnaires/
   fast.md            ← 15 questions.
   full.md            ← 90 questions + 8 angles.
@@ -94,9 +107,12 @@ reference/
 templates/
   ikigai-result.md   ← The summary the agent fills in for you at the end.
 examples/
-  walkthrough-fast.md ← A short sample run so you can see the shape.
+  walkthrough-fast.md             ← A short sample run so you can see the shape.
+  walkthrough-fast-ai-engineer.md ← A fuller run: a mid-career engineer in the AI era.
 assets/
-  ikigai.svg         ← The diagram above — the Ikigai Venn (matches the BECoach app).
+  ikigai.svg                      ← The diagram above — the Ikigai Venn (matches the BECoach app).
+  templates/mindmap.svg           ← Fillable mind-map keepsake (values / talents / love).
+  examples/values-mindmap-example.svg ← Example rendered values mind map.
 ```
 
 ---

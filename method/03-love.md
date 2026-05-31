@@ -22,6 +22,10 @@ A "love" here = a domain you're drawn to learn about and think about, **for its 
 - **Don't let "useful" sneak in.** This stage is about genuine pull, not what they think they *should* be interested in or what's marketable. Marketability is a Stage-5 (Means) concern. If they answer with a "should," gently redirect: "set aside whether it's useful — what actually grabs you?"
 - **Mild interest counts.** Per the misconceptions, a love often starts as a faint "huh, that's kind of nice," not a thunderclap. Don't make them wait for a passion that announces itself.
 
+## Reveal & visualize
+
+Show the answer → field mapping (*"'a mentor explained how to survive here' → the domain of helping people through hard transitions"*) and mark intensity. Then render a **domains map**, hottest fields flagged 🔥. Recipe in [visuals.md](visuals.md).
+
 ## Before moving on
 
 Summarize their domains, hottest first. Get a "yes, those pull me." Then go to [04-synthesis.md](04-synthesis.md) — where the three pillars finally combine.
