@@ -108,12 +108,13 @@ templates/
   ikigai-result.md   ← The summary the agent fills in for you at the end.
 examples/
   walkthrough-fast.md             ← A short sample run so you can see the shape.
-  walkthrough-fast-ai-engineer.md ← A fast run: a mid-career engineer in the AI era.
-  walkthrough-full-ai-engineer.md ← The same engineer on the full track (8-angle dive + sharper calling).
+  walkthrough-fast-ai-engineer.md      ← A fast run: a mid-career engineer in the AI era.
+  walkthrough-full-ai-engineer.md      ← The same engineer on the full track (8-angle dive + sharper calling).
+  walkthrough-fast-language-teacher.md ← A fast run: an immigrant language teacher (new baby + green card).
 assets/
   ikigai.svg                      ← The diagram above — the Ikigai Venn (matches the BECoach app).
   templates/mindmap.svg           ← Fillable mind-map keepsake (values / talents / love).
-  examples/*-mindmap-example.svg  ← Rendered example maps: values, talents, love.
+  examples/*.svg                  ← Rendered example maps (the engineer and language-teacher runs).
 ```
 
 ---

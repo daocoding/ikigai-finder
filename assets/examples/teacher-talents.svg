@@ -1,0 +1,44 @@
+<svg viewBox="0 0 880 660" xmlns="http://www.w3.org/2000/svg" font-family="'Avenir Next','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="42%" r="60%"><stop offset="0" stop-color="#6FB4E6"/><stop offset="1" stop-color="#4A8FCC"/></radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#9CCDF0" stop-opacity="0.55"/><stop offset="1" stop-color="#9CCDF0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="880" height="660" fill="#FFFFFF"/>
+
+  <g stroke="#C4CAD2" stroke-width="1.6" stroke-dasharray="4 5">
+    <line x1="440" y1="330" x2="440" y2="125"/>
+    <line x1="440" y1="330" x2="215" y2="515"/>
+    <line x1="440" y1="330" x2="665" y2="520"/>
+  </g>
+
+  <!-- ◎ Strongest -->
+  <ellipse cx="440" cy="125" rx="172" ry="112" fill="#EAF6EF" stroke="#CFE6D8"/>
+  <text x="440" y="37" text-anchor="middle" font-size="18" font-weight="600" fill="#3E9C6B">◎ Strongest</text>
+  <g font-size="12.5" text-anchor="middle">
+    <rect x="335" y="67"  width="210" height="26" rx="13" fill="#FFF" stroke="#9FD8B6"/><text x="440" y="84"  fill="#2E8B57">Make it safe to try</text>
+    <rect x="335" y="97"  width="210" height="26" rx="13" fill="#FFF" stroke="#9FD8B6"/><text x="440" y="114" fill="#2E8B57">Find the personal hook</text>
+    <rect x="335" y="127" width="210" height="26" rx="13" fill="#FFF" stroke="#9FD8B6"/><text x="440" y="144" fill="#2E8B57">Build warmth and trust, fast</text>
+    <rect x="335" y="157" width="210" height="26" rx="13" fill="#FFF" stroke="#9FD8B6"/><text x="440" y="174" fill="#2E8B57">Make each person feel known</text>
+  </g>
+
+  <!-- ○ Solid -->
+  <ellipse cx="215" cy="515" rx="118" ry="74" fill="#EAF1F8" stroke="#D2DFEC"/>
+  <text x="215" y="463" text-anchor="middle" font-size="18" font-weight="600" fill="#4A8FCC">○ Solid</text>
+  <g font-size="12.5" text-anchor="middle">
+    <rect x="121" y="484" width="188" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="215" y="501" fill="#4A8FCC">Fit learning to the kid</text>
+    <rect x="121" y="514" width="188" height="26" rx="13" fill="#FFF" stroke="#BBD8EE"/><text x="215" y="531" fill="#4A8FCC">Hold anxious parents</text>
+  </g>
+
+  <!-- △ Testing -->
+  <ellipse cx="665" cy="520" rx="112" ry="56" fill="#F4F2EC" stroke="#E4DECC"/>
+  <text x="665" y="492" text-anchor="middle" font-size="18" font-weight="600" fill="#B08A3E">△ Testing</text>
+  <g font-size="12.5" text-anchor="middle">
+    <rect x="575" y="512" width="180" height="26" rx="13" fill="#FFF" stroke="#E0CF9E"/><text x="665" y="529" fill="#A9842F">Growing a following</text>
+  </g>
+
+  <!-- center -->
+  <ellipse cx="440" cy="330" rx="96" ry="66" fill="url(#halo)"/>
+  <ellipse cx="440" cy="330" rx="74" ry="51" fill="url(#core)" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="440" y="324" text-anchor="middle" font-size="16.5" font-weight="700" fill="#FFFFFF">How Mei</text>
+  <text x="440" y="346" text-anchor="middle" font-size="16.5" font-weight="700" fill="#FFFFFF">works</text>
+</svg>
