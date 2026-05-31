@@ -111,6 +111,7 @@ examples/
   walkthrough-fast-ai-engineer.md      ← A fast run: a mid-career engineer in the AI era.
   walkthrough-full-ai-engineer.md      ← The same engineer on the full track (8-angle dive + sharper calling).
   walkthrough-fast-language-teacher.md ← A fast run: an immigrant language teacher (new baby + green card).
+  walkthrough-fast-empty-nester.md     ← A fast run: a stay-at-home mom whose kids just left for college.
 assets/
   ikigai.svg                      ← The diagram above — the Ikigai Venn (matches the BECoach app).
   templates/mindmap.svg           ← Fillable mind-map keepsake (values / talents / love).
