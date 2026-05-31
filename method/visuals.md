@@ -8,7 +8,7 @@ The point of this whole journey is **not** to hand the user a verdict. It's to l
 Two diagram formats — ship whichever fits the surface, or both:
 
 - **Mermaid** (default) — you emit ~10–20 lines of text; it renders as a live diagram in GitHub, Claude/ChatGPT, Notion, Obsidian, VS Code, and most markdown surfaces. Dynamic, zero layout work. In a bare terminal it stays a readable outline. **Use this every time.**
-- **SVG keepsake** ([`../assets/templates/mindmap.svg`](../assets/templates/mindmap.svg)) — the Jinpei-Yagi-style bubble map. Fill the placeholder slots with the user's words. Renders anywhere as an image; nice as the end-of-journey keepsake. Example output: [`../assets/examples/values-mindmap-example.svg`](../assets/examples/values-mindmap-example.svg).
+- **SVG keepsake** ([`../assets/templates/mindmap.svg`](../assets/templates/mindmap.svg)) — the Jinpei-Yagi-style bubble map. Fill the placeholder slots with the user's words. Renders anywhere as an image; nice as the end-of-journey keepsake. Example renders: [values](../assets/examples/values-mindmap-example.svg) · [talents (tiered ◎/○/△)](../assets/examples/talents-mindmap-example.svg) · [love (hot pulls in amber)](../assets/examples/love-mindmap-example.svg).
 
 > Always build maps from the user's **own words**, never invented ones. The map is a mirror, not a poster.
 
