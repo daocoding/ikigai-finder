@@ -1,159 +1,242 @@
-# Example — fast-track run: a mid-career engineer in the AI era
+# Example — fast-track run, fully annotated: a mid-career engineer in the AI era
 
-A complete simulated **fast** journey (15 questions), run by an agent following [`../AGENTS.md`](../AGENTS.md). Persona played for the answers: **Wei Chen**, 36, born in Chengdu, came to the US at 24 for a CS master's, now 10 years a backend/platform engineer (currently senior SWE at a Seattle fintech). Married, one 4-year-old. Quietly anxious that LLMs now write the code he built his identity on — wondering what's worth doing in the AI era.
+A complete **fast** journey (15 questions) run by an agent following [`../AGENTS.md`](../AGENTS.md), shown with **every step exposed**: each question, the user's full answer, and the **keyword extraction** for that answer — phrase → keyword → where it maps. Nothing is hidden; you can audit how each answer becomes a value, a talent, a domain, and finally a calling.
 
-> Unlike the trimmed [walkthrough-fast.md](walkthrough-fast.md), this is shown closer to full length so you can see the method actually working — the trap-value probe, the ◎/○/△ ratings, the two-step synthesis, and the calling-vs-means split. The guide asks one question at a time and reflects back; trimmed only lightly.
+Persona played for the answers: **Wei Chen**, 36, born in Chengdu, came to the US at 24 for a CS master's, now 10 years a backend/platform engineer (senior SWE at a Seattle fintech). Married, one 4-year-old. Quietly anxious that LLMs now write the code he built his identity on.
+
+> Format of each turn: **Q** (the question) → **Wei** (his answer) → **🔍 Extraction** (the phrases the agent lifted, the keyword each becomes, and what it maps to — including *anti-signals*, where he rules something out).
 
 ---
 
 ## Step 0 — setup
 
-**Guide:** Before we start — want the **fast** version (~15 min, 5 questions per area) or the **full** one (~45 min)? And shall I show you the 5 common myths about "finding what you want to do" first?
-
-**Wei:** Fast, please. Skip the myths — I've got 20 minutes before my kid wakes up.
-
-**Guide:** Perfect. We'll go through three areas — what you value, what you're good at, what you love — then I'll pull them together into a direction and concrete next steps. One question at a time. Ready when you are.
+**Guide:** Fast (~15 min, 5 questions per area) or full (~45)? And want the 5 myths first?
+**Wei:** Fast. Skip the myths — I've got about 20 minutes.
+**Guide:** We'll do three areas — what you value, what you're good at, what you love — then pull them together. One question at a time.
 
 ---
 
-## Stage 1 — Values → Work Purpose
+## Stage 1 — Values
 
-**Guide:** Who do you respect — a friend, a public figure, a character — and what *specifically* about them?
+**Q1.** Who do you respect — a friend, public figure, or character — and what *specifically* about them?
 
-**Wei:** My father. High school physics teacher in Chengdu, never made much money — but former students still visit him 30 years later. I respect that he made people's lives better and they *remembered* him for it. Also Andrej Karpathy — not for the fame, but how he explains hard things so clearly that anyone can suddenly get it.
+**Wei:** My father, first. He was a high-school physics teacher in Chengdu — never made much money, but former students still visit him thirty years later. What I respect is that he genuinely changed people's lives and they *remembered* him for it. The other is Andrej Karpathy — not because he's famous, but because he can take something genuinely hard and explain it so cleanly that suddenly anyone can follow.
 
-*Guide notes: respect is anchored on **lasting impact on people** + **making the hard things clear**. Not status, not wealth.*
+**🔍 Extraction**
+| Phrase from the answer | Keyword | Maps to |
+|---|---|---|
+| "changed people's lives… they remembered him" | lasting impact on people | **Contribution** |
+| "students still visit him 30 years later" | being valued over time, not money | **Contribution** (over Wealth) |
+| "explain it so cleanly anyone can follow" | clarity / teaching | **Knowledge shared** |
+| "not because he's famous" | *rules out status* | anti-signal → **not** Fame |
 
-**Guide:** Both of those are about lifting other people — one through care over time, one through clarity. Next: what experience in your childhood or youth shaped you most, and how did it shape your values?
+**Q2.** What experience in your childhood or youth shaped you most, and how did it shape your values?
 
-**Wei:** We didn't have much. My parents saved everything for my education. Getting into a good university felt like the whole family's years of sacrifice paying off. It taught me two things — education is the lever that changes a family's whole trajectory, and someone quietly sacrificing for you is the deepest kind of love.
+**Wei:** We didn't have much money. My parents put everything into my education — I found out later my mother sold her jewelry the year I applied to university. Getting in felt like the whole family's sacrifice paying off at once. It taught me two things: education is the lever that changes a family's whole trajectory, and someone quietly sacrificing for you is the deepest kind of love there is.
 
-*Guide notes: **education-as-lever**, **quiet sacrifice / family**, not wasting a gift.*
+**🔍 Extraction**
+| Phrase from the answer | Keyword | Maps to |
+|---|---|---|
+| "education is the lever that changes a family's trajectory" | education as the thing that lifts people | **Knowledge shared** + **Growth** |
+| "whole family's sacrifice paying off" | honoring others' sacrifice | **Family** |
+| "quietly sacrificing for you is the deepest love" | quiet devotion to family | **Family** |
 
-**Guide:** So opportunity, and a debt you want to honor. What do you feel is missing or wrong in society today?
+**Q3.** What do you feel is missing or wrong in society today?
 
-**Wei:** People are isolated and anxious — immigrants especially. Everyone's grinding and nobody feels seen. And right now with AI, a lot of engineers my age are scared and pretending they're fine. There's no honest place to figure out "okay… what now?"
+**Wei:** People are isolated and anxious — immigrants especially. Everyone's grinding and no one feels *seen*. And right now in tech, a lot of engineers my age are scared about AI and just… pretending they're fine. There's no honest place to stand and figure out "okay, what now?"
 
-*Guide notes: anger/ache points at a domain he cares about — **honest help for people facing a scary transition**, esp. immigrants & mid-career engineers.*
+**🔍 Extraction**
+| Phrase from the answer | Keyword | Maps to |
+|---|---|---|
+| "no one feels seen" | people being unseen bothers him | **Contribution** (make people feel seen) |
+| "pretending they're fine… no honest place" | dishonesty/avoidance bothers him | **Honesty** |
+| "scared about AI… what now?" | (domain signal — carry to Stage 3) | → *transition / AI shift* |
 
-**Guide:** Ask your wife, or imagine her answer: what does she think you value most in life?
+**Q4.** Ask someone close to you — what would your wife say you value most?
 
-**Wei:** She'd say "being dependable" — that people can count on me, that I won't let my family down. She'd also say I overvalue *security* sometimes.
+**Wei:** She'd say "being dependable" — that people can count on me and I won't let my family down. She'd probably also say, with a bit of an eyebrow, that I *overvalue* security.
 
-*Guide notes: "security" is a possible **trap value** — probe it.*
+**🔍 Extraction**
+| Phrase from the answer | Keyword | Maps to |
+|---|---|---|
+| "people can count on me" | dependability | **Responsibility / Family** |
+| "won't let my family down" | protecting family | **Family** |
+| "overvalue security" | ⚠ possible **trap value** | flag → probe before trusting it |
 
-**Guide:** Let me gently push on "security," because it's often a stand-in for something deeper. When you imagine having total security — what does it actually let you *do* or *feel*?
+> **Trap-value probe (shown in full):**
+> **Guide:** "Security" is often a stand-in for something deeper. When you imagine total security — what does it actually let you *do* or *feel*?
+> **Wei:** Honestly? It's not about me feeling safe. It's that I could take care of the people who took care of me — and maybe finally have room to do something that *matters* instead of just something safe.
+> **🔍 Extraction (post-probe):** "security" → *not a core value*; it resolves into **Family** (provide for them) + a held-back **Growth / do work that matters**. The surface word is dropped; the two values underneath are kept.
 
-**Wei:** …Honestly? It's not about me feeling safe. It's that I can take care of the people who took care of me — my parents, my wife, my kid. And maybe, if I'm secure enough, I'd finally have room to do something that *matters* instead of just something safe.
+**Q5.** Advising your daughter — the #1 thing you'd most want to tell her, and what you'd most *not* want to tell her?
 
-**Guide:** That's important — so "security" isn't the value, it's the gate. Underneath it are **providing for the people you love** and a held-back wish for **work that matters**. Last values question: advising your daughter, what's the #1 thing you'd most want to tell her — and what would you most *not* want to tell her?
+**Wei:** I'd most want to tell her: "Find what makes you feel alive, and get so good at it that you can help other people with it." What I'd *not* want to tell her — and this one stings — is "just pick something safe and stable." Because that's basically what I did, and part of me regrets it.
 
-**Wei:** I'd most want to tell her: "Find what makes you feel alive, and get so good at it that you can help other people with it." What I'd *not* want to tell her — and this stings — is "just pick something safe and stable." Because that's basically what I did, and part of me regrets it.
+**🔍 Extraction**
+| Phrase from the answer | Keyword | Maps to |
+|---|---|---|
+| "find what makes you feel alive" | aliveness | **Growth** |
+| "get so good you can help others" | mastery in service of others | **Growth** + **Contribution** |
+| "*not* 'pick something safe'" | actively rejects safety-first | confirms **security is not** a top value |
 
-*Guide notes: he just rejected his own trap value out loud. His real hierarchy is clear.*
+### Tally → ranked top 5 (the ranking logic, in the open)
 
-**Guide:** That's one of the most honest things people say in this whole exercise. Here's what I'm hearing as your top values — tell me if a word is off:
+Counting how often each value was hit across the 5 answers (and weighting the ones he stated most forcefully):
 
-1. **Contribution** — being someone whose work genuinely helps people (your dad, the engineer who saved you)
-2. **Growth / aliveness** — "feel alive and get so good you can help others"; not stagnating
-3. **Knowledge shared** — clarity, teaching, paying forward what you were given
-4. **Family** — providing for the people who sacrificed for you
-5. **Honesty** — an honest place to face hard things, no pretending
+| Value | Hits | Evidence |
+|---|---|---|
+| **Contribution** | 4 | Q1 ×2, Q3, Q5 |
+| **Family** | 4 | Q2 ×2, Q4, probe |
+| **Knowledge shared** | 3 | Q1, Q2, (his whole respect-pattern) |
+| **Growth / aliveness** | 3 | Q2, Q5 ×2, the probe's "work that matters" |
+| **Honesty** | 1 | Q3 (but stated as a near-moral line) |
 
-**Wei:** Yeah. That's me — and seeing "security" *not* in the top 5 is uncomfortable but right.
+**Guide:** If you could keep only three, which survive?
+**Wei:** Contribution, Growth, and… Knowledge shared. Family is bedrock, but it's *why* I'd do those, not the work itself.
 
-**Guide → Work Purpose (the *Why*):**
+**Ranked:** 1) Contribution · 2) Growth · 3) Knowledge shared · 4) Family · 5) Honesty. (Security, his stated value, is deliberately *not* here — the probe and Q5 disqualified it.)
+
+**Work Purpose (derived from the top values):**
 > *"So people facing a frightening change feel less alone — and more capable of their next step."*
 
 **Wei:** …that actually gave me chills. Yes.
 
 **Guide:** Here are your values as a map — your own words, clustered. Move anything that's off?
 
-![Wei's values mind map — a central "Wei's Values" node with five clusters: Contribution, Growth & aliveness, Knowledge shared, Family, Honesty.](../assets/examples/values-mindmap-example.svg)
+![Wei's values mind map](../assets/examples/values-mindmap-example.svg)
 
 **Wei:** No — that's me on one page.
 
 ---
 
-## Stage 2 — Talents (rated ◎ proven+energizing · ○ energizing · △ unsure)
+## Stage 2 — Talents
 
-**Guide:** In your life so far, what experience felt the most fulfilling?
+*(Here the "keyword" is the talent under the story, plus the ◎/○/△ rating and its reason.)*
 
-**Wei:** I rewrote a deployment system everyone was scared of. But the part I loved wasn't the code — it was three junior engineers telling me they *finally* understood how the whole system worked, because I'd documented it and walked them through it. I made something complex feel approachable.
+**Q1.** What experience in your life so far felt the most fulfilling?
 
-→ **◎ Making the complex approachable** (proven: system shipped *and* people learned). *Shadow: can over-explain; slow to ship his own ideas.*
+**Wei:** I rewrote a deployment system everyone on the team was scared of. But the part I loved wasn't the code — it was that afterward, three junior engineers told me they *finally* understood how the whole system worked, because I'd documented it and walked them through it.
 
-**Guide:** What's recently made you irritated or anxious?
+**🔍 Extraction**
+| Phrase from the answer | Talent | Rating + why |
+|---|---|---|
+| "made… they finally understood" | making the complex approachable | **◎** — energized him AND shipped a result |
+| "documented it and walked them through" | teaching / explaining | ◎ (same evidence) |
+| "the part I loved wasn't the code" | *anti-signal* | pure-coding is **not** his energy source |
+
+**Q2.** What's recently made you irritated, restless, or anxious?
 
 **Wei:** Watching sharp colleagues panic about AI and either freeze or pretend they're fine. And my own fear that the thing I'm good at is becoming a commodity. It bugs me that nobody talks about it honestly.
 
-→ **○ Sensing what people are really feeling** (esp. hidden fear) — emerging talent, and a clue to his domain.
+**🔍 Extraction**
+| Phrase from the answer | Talent | Rating + why |
+|---|---|---|
+| "watching colleagues panic… freeze… pretend" | noticing what people really feel | **○** — he reads hidden states; not yet "proven" |
+| "nobody talks about it honestly" | (echoes **Honesty** value) | cross-pillar thread |
 
-**Guide:** Ask your wife — what does she say your strengths are?
+**Q3.** Ask your wife — what does she say your strengths are?
 
-**Wei:** Patience. She says I'm who friends call when they're overwhelmed, because I break their problem into steps until they calm down. And that I explain technical things to non-technical people without making them feel dumb.
+**Wei:** Patience. She says I'm the person friends call when they're overwhelmed, because I break their problem into steps until they calm down. And that I explain technical things to non-technical people without making them feel dumb.
 
-→ **◎ Breaking overwhelm into clear next steps** · **◎ Explaining without condescension.** Both proven, both energizing.
+**🔍 Extraction**
+| Phrase from the answer | Talent | Rating + why |
+|---|---|---|
+| "break their problem into steps until they calm down" | breaking overwhelm into steps | **◎** — repeatable, others rely on it |
+| "without making them feel dumb" | explaining without condescension | **◎** — a distinct, named gift |
 
-**Guide:** If you quit tomorrow, what would you miss?
+**Q4.** If you quit tomorrow, what would you miss?
 
 **Wei:** Not the meetings. I'd miss mentoring the junior devs — that moment when someone *gets it*. And solving a gnarly architecture problem with a small team I trust.
 
-→ **◎ Mentoring / the "they get it" moment** · **○ Architecting hard system problems.**
+**🔍 Extraction**
+| Phrase from the answer | Talent | Rating + why |
+|---|---|---|
+| "mentoring… the moment someone gets it" | mentoring | **◎** — it's what he'd *grieve losing* |
+| "solving a gnarly architecture problem" | architecting hard systems | **○** — real, but secondary to the teaching |
 
-**Guide:** What results have you achieved, and *exactly how*?
+**Q5.** What results have you achieved, and *exactly how*?
 
-**Wei:** Led a monolith-to-services migration, on time, no major outage. How? I didn't just design it — I wrote a clear plan and taught everyone so they could move *without me in the room*. The teaching is why it worked.
+**Wei:** Led a monolith-to-services migration — on time, no major outage. How? I didn't just design it. I wrote a clear plan and taught everyone so they could move *without me in the room*. The teaching is why it worked.
 
-→ Confirms the **core mechanism: systematize + teach so others can act without him.**
+**🔍 Extraction**
+| Phrase from the answer | Talent | Rating + why |
+|---|---|---|
+| "taught everyone so they could move without me" | systematize + teach so others act | confirms the ◎ cluster — it's his *method*, not a one-off |
 
-**Guide:** Your talent pattern is unusually consistent: **◎** make-the-complex-approachable, **◎** break-overwhelm-into-steps, **◎** explain-without-condescension, **◎** mentoring, with **○** architecting and **○** reading-people's-fear. The thread through all of them isn't "writing code" — it's *making other people capable.* Sound right?
+![Wei's talents map, tiered ◎ / ○ / △](../assets/examples/talents-mindmap-example.svg)
 
-**Wei:** …I've never said it that way, but yes. The code was never the point. Huh.
+**Pattern revealed:** every ◎ is a variant of one thing — *making other people capable.* The code was never the point.
 
 ---
 
-## Stage 3 — Love (domains that pull him; 🔥 = hot)
+## Stage 3 — Love
 
-**Guide:** What would you happily pay to study right now?
+*(Here the "keyword" is the field/domain, plus an intensity read: 🔥 = can't-not-think-about-it.)*
 
-**Wei:** How people actually learn and change — cognitive science, how adults reskill. And the practical side of AI — not to keep up out of fear, but how it can *amplify* a person instead of replacing them. 🔥
+**Q1.** What would you happily pay money to study right now?
 
-**Guide:** What's on your bookshelf?
+**Wei:** How people actually learn and change — cognitive science, how adults reskill. And the practical side of AI — not to keep up out of fear, but how it can *amplify* a person instead of replacing them.
 
-**Wei:** Tech books. But the ones I *reread*: The Pragmatic Programmer, Cal Newport, a couple on teaching, and a worn copy of Zeng Guofan's letters my dad gave me — about steady character and self-cultivation.
+**🔍 Extraction**
+| Phrase from the answer | Domain | Intensity |
+|---|---|---|
+| "how people learn and change… how adults reskill" | how people learn | 🔥 |
+| "AI… amplify a person instead of replacing them" | AI as amplifier | 🔥 |
 
-→ domains: **craft/mastery**, **deep work**, **teaching**, **character/self-cultivation**, a bicultural thread.
+**Q2.** What kinds of books are on your bookshelf?
 
-**Guide:** Anything that ever made you feel "this saved me"?
+**Wei:** Tech books, sure. But the ones I *reread*: The Pragmatic Programmer, Cal Newport, a couple on teaching, and a worn copy of Zeng Guofan's letters my dad gave me — about steady character and self-cultivation.
 
-**Wei:** When I first immigrated and was drowning, a senior engineer — also an immigrant — took time to explain not just the code but how to *survive* here. That mentorship saved me. I've wanted to be that for someone ever since. 🔥
+**🔍 Extraction**
+| Phrase from the answer | Domain | Intensity |
+|---|---|---|
+| "Cal Newport / craft / deep work" | mastery & deep work | warm |
+| "Zeng Guofan's letters… self-cultivation" | character / self-cultivation | warm |
+| "a couple on teaching" | teaching | warm (reinforces Stage 2) |
 
-**Guide:** Whose work do you want to thank?
+**Q3.** Anything that ever made you feel "this saved me"?
 
-**Wei:** That engineer. My parents. And the strangers who write clear tutorials at 2am that got me unstuck — never met them, but they shaped my career.
+**Wei:** When I first immigrated and was drowning, a senior engineer — also an immigrant — took time to explain not just the code but how to *survive* here. That mentorship saved me. I've wanted to be that for someone ever since.
 
-**Guide:** What social issue makes you angry?
+**🔍 Extraction**
+| Phrase from the answer | Domain | Intensity |
+|---|---|---|
+| "mentorship… how to survive here… saved me" | mentoring people through hard transitions | 🔥 |
+| "also an immigrant… survive here" | the immigrant path | 🔥 (new cluster) |
 
-**Wei:** That talented immigrants get stuck because nobody shows them the unwritten rules. And that mid-career people are told they're "obsolete" in the AI shift instead of being *helped to adapt*. It's wasteful and cruel. 🔥
+**Q4.** Whose work do you want to thank?
 
-**Guide:** Your hot domains: **how people learn & change**, **mentoring people through a hard transition** (immigrants, mid-career engineers), **AI-as-amplifier-not-replacement** — wrapped in a value of craft and character. These aren't random; they're all the same shape.
+**Wei:** That senior engineer. My parents. And the strangers who write clear tutorials at 2am that got me unstuck — never met them, but they shaped my career.
+
+**🔍 Extraction**
+| Phrase from the answer | Domain | Intensity |
+|---|---|---|
+| "clear tutorials… got me unstuck" | clear teaching as a gift to strangers | warm (ties love → his ◎ talent) |
+
+**Q5.** What social issue makes you angry?
+
+**Wei:** That talented immigrants get stuck because nobody shows them the unwritten rules. And that mid-career people are told they're "obsolete" in the AI shift instead of being *helped to adapt*. It's wasteful and cruel.
+
+**🔍 Extraction**
+| Phrase from the answer | Domain | Intensity |
+|---|---|---|
+| "immigrants stuck… nobody shows them the unwritten rules" | the immigrant path | 🔥 (anger confirms the heat) |
+| "told they're obsolete… instead of helped to adapt" | the mid-career AI transition | 🔥 |
+
+![Wei's love map, hot pulls in amber](../assets/examples/love-mindmap-example.svg)
 
 ---
 
 ## Stage 4 — Synthesis
 
-**Step 1 — candidates (Love × Talent), quantity over quality, no job titles:**
+**Step 1 — candidates (Love × Talent), no job titles:**
+1. Explaining AI in plain terms so anxious engineers feel capable instead of obsolete
+2. Mentoring immigrant engineers through the unwritten rules
+3. Breaking the scary "what do I do now?" of the AI era into clear next steps
+4. Writing calm guides that get someone unstuck at 2am
+5. Hosting honest rooms where engineers admit their AI fear and find their footing
 
-1. Explaining AI in plain terms so anxious engineers feel *capable* instead of obsolete
-2. Mentoring immigrant engineers through the unwritten rules of surviving and thriving in US tech
-3. Breaking the scary "what do I do now?" of the AI era into clear, doable next steps
-4. Writing calm, clear guides that get someone unstuck at 2am
-5. Designing learning that helps people actually *change*, not just consume information
-6. Turning complex systems into mental models other people can build on
-7. Hosting honest rooms where engineers admit their AI fear and find their footing
-
-**Step 2 — filter through his Work Purpose** ("so people facing a frightening change feel less alone and more capable of their next step"). Here's the logic in one picture — his love × talent pairings became candidates, then the Work Purpose kept some and set others aside:
+**Step 2 — filter through his Work Purpose.** The logic, in the open — his love × talent pairings become candidates, then the Work Purpose keeps some and sets others aside:
 
 ```mermaid
 flowchart TB
@@ -191,62 +274,33 @@ flowchart TB
   WP ==>|kept and fused| TC(["TRUE CALLING"])
 ```
 
-Candidates 1, 2, 3 (and 7) serve the purpose and fuse; "architecting for its own sake" gets set aside — visibly, with the reason. That gives:
-
 > ### Wei's true calling (a hypothesis, not a verdict)
 > **"Turning the fear of a big change into clear, doable next steps — for engineers and immigrants facing the AI shift — so they feel less alone and more capable of who they're becoming."**
->
-> *Method:* make the complex approachable + break overwhelm into steps + mentor · *Domain:* the AI-era career transition (esp. immigrants & mid-career engineers) · *Why:* less alone, more capable.
 
-**Guide:** This is a starting point you test by living it, not a label. Quick 3-axis check — does any part feel off on your **values**, your **talent**, or your **love**?
-
-**Wei:** No… all three light up. The strange part is it uses the AI thing I've been *afraid* of as the raw material. That reframes my fear into my material.
+**Guide:** Starting point, not a verdict. Off anywhere — values, talent, or love?
+**Wei:** No… all three light up. And it uses the AI thing I've been *afraid* of as the raw material. That reframes my fear into my material.
 
 ---
 
 ## Stage 5 — Means (now job titles are welcome)
 
-| Means | What it looks like | Why it fits | First step (this week) | Timeframe |
+| Means | Day-to-day | Why it fits | First step (this week) | Timeframe |
 |---|---|---|---|---|
-| **AI-enablement / developer-education lead** (or Dev Advocate) | Teach teams to use AI tools well; write the internal playbooks; run workshops | Clarity + teaching + "amplify not replace" — directly | Offer to run one lunch-and-learn: "Using AI to amplify, not replace, your work" | short–medium |
-| **Write for immigrant + mid-career engineers** (newsletter / small community) | Honest posts on the unwritten rules + navigating the AI shift | Pays forward the mentorship that saved him; transition domain | Write one 800-word post, "What now? — for engineers scared of AI," send to 10 ex-colleagues | **this week** |
-| **Engineering manager / lead, coaching-heavy** | Grow people, not just ship; the mentoring he'd miss | Mentoring ◎ + dependable + contribution | Tell his manager he wants to formally mentor 2 juniors / explore the lead track | medium |
-| **A small course or tool for AI-era reskilling** | Build the thing that helps mid-career devs adapt | Systematize + teach + "do something that matters" (answers the regret) | Outline a 5-lesson mini-course; interview 5 potential learners | medium–long |
+| **AI-enablement / dev-education lead** | Teach teams to use AI well; write the playbooks | clarity + "amplify not replace" | Offer one lunch-and-learn: "Use AI to amplify, not replace, your work" | short–med |
+| **Newsletter for engineers in the shift** | Honest weekly posts | pays forward the mentorship that saved him | Write post #1, "What now? — for engineers scared of AI," to 10 people | **this week** |
+| **Coaching-track eng manager** | Grow people, not just ship | mentoring ◎ + contribution | Tell his manager he wants to mentor 2 juniors | medium |
 
-**Daily practices:** (1) spend 15 min explaining one AI concept simply — a short note or tweet. (2) Message one person facing a transition and offer one concrete next step.
-**Weekly ritual:** Friday, write 300 words unpacking something you learned that week, for the "scared engineer" reader.
-
-**Guide:** Of all of that — what's the one step you'll actually take this week?
-
-**Wei:** Write the post. "What now? — for engineers scared of AI." Send it to ten people. If even one replies "this helped," I'll know.
-
-**Guide:** That's it. That post *is* your calling in miniature — clarity, for people in a scary transition, so they feel less alone. Want me to check in Friday on how it landed?
+**First step he commits to:** write & send "What now? — for engineers scared of AI" to 10 ex-colleagues.
 
 ---
 
-## Filled result (the keepsake)
+## Builder's verdict — does the extraction hold up?
 
-- **Values:** Contribution · Growth/aliveness · Knowledge shared · Family · Honesty
-- **Talents:** ◎ make-complex-approachable · ◎ break-overwhelm-into-steps · ◎ explain-without-condescension · ◎ mentoring · ○ architecting · ○ reading hidden fear — *core mechanism: systematize + teach so others can act without me*
-- **Love:** how people learn & change 🔥 · mentoring people through hard transitions 🔥 · AI-as-amplifier 🔥 · craft & character
-- **Work Purpose:** So people facing a frightening change feel less alone and more capable of their next step.
-- **True Calling:** Turning the fear of a big change into clear, doable next steps — for engineers and immigrants facing the AI shift — so they feel less alone and more capable of who they're becoming.
-- **First step this week:** Write & send "What now? — for engineers scared of AI" to 10 people.
+With every step exposed, you can check the work:
+- **Each value traces to specific phrases.** "Contribution" isn't asserted — it's four quoted phrases across four answers. That's the audit Tony asked for.
+- **Anti-signals matter.** "Not because he's famous" and "the part I loved wasn't the code" actively *ruled things out* — the extraction captured those, which is how the calling avoided the obvious-but-wrong "AI developer advocate" framing.
+- **The trap-value probe is visible and decisive.** You can see "security" enter as a stated value and get demoted, with the reasoning shown — not silently dropped.
+- **The ranking is a tally, not a vibe.** The hit-count table shows *why* Contribution and Growth outrank Honesty.
+- **Cross-pillar threads are marked.** "Nobody talks about it honestly" (a talent answer) was tagged back to the Honesty *value*; the 2am-tutorials love answer was tied to his ◎ teaching talent. Those links are what make the result feel like one person.
 
----
-
-## Builder's verdict — does the repo work?
-
-**Yes — it produced a coherent, personalized, on-method journey from cold start, and the AI-era framing emerged naturally rather than being forced.** What the run confirms:
-
-- **The trap-value probe earned its place.** "Security" was his stated value; one probe ("what does it actually let you do?") cracked it open into *provide for family* + *do work that matters*, and his own "advice to my daughter" answer then disqualified security from the top 5. Without that step, the whole synthesis would have aimed at the wrong target (a safe job) instead of his real one.
-- **The two-step synthesis matters.** Generating 7 loose candidates first, *then* filtering by Work Purpose, kept the calling from collapsing into "AI developer advocate" (a job title). The calling stayed an *activity*; the job titles correctly waited for the Means table.
-- **Cross-pillar threading is what makes it feel personal.** The "senior immigrant engineer who saved me" (Love) ↔ "mentoring is what I'd miss" (Talent) ↔ "being remembered for helping" (Value) all reinforced one shape. `AGENTS.md`'s "keep the thread" instruction did real work; an agent that treated each pillar in isolation would produce a blander result.
-- **The AI-era anxiety became raw material, not noise.** The method is domain-agnostic, so "ikigai in the AI era" just flowed in through his Love/anger answers and out through AI-relevant Means. His fear got reframed *as his material* — arguably the single most valuable moment, and it came from the method, not from me improvising.
-
-**Honest gaps / notes:**
-- **Fast track is a sketch.** 5 questions/pillar was enough for a strong direction, but the talent layer would deepen a lot with the **full** track's 8-angle dive (e.g., *exactly* how he makes things approachable). For a real decision he'd want the full run.
-- **Quality depends on the guiding model.** A weaker agent might skip the trap-probe or let a job title sneak into the calling. The rules in `AGENTS.md` are clear, but they're instructions, not guardrails — worth watching when other agents run it.
-- **Self-answered persona caveat.** I played both sides, so the answers were unusually articulate and self-consistent. A real human rambles, contradicts, and needs more reflecting-back. The flow handles that (it's a conversation), but a live run will be messier and slower.
-
-**Net:** the substrate holds. An agent pointed at this repo can take a stranger from "I'm scared AI makes me obsolete" to a named calling and a concrete first step in ~15 minutes, faithfully to Jinpei Yagi's method.
+Honest caveat: I played both sides, so Wei's answers are cleaner than a real human's. A live run is messier — more "I don't know," more contradiction — and the agent has to probe more. But the *mechanism* shown here (phrase → keyword → mapped, with anti-signals and a tally) is exactly what a faithful run does at each step.
