@@ -1,69 +1,69 @@
-<svg viewBox="0 0 1000 980" xmlns="http://www.w3.org/2000/svg" font-family="'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif">
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" font-family="'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0D1B2A"/><stop offset="1" stop-color="#1B263B"/></linearGradient>
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FDCB6E" stop-opacity="0.5"/><stop offset="1" stop-color="#FDCB6E" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect x="0" y="0" width="1000" height="980" rx="28" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1000" height="1000" rx="28" fill="url(#bg)"/>
 
-  <text x="500" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">Wei's Ikigai</text>
-  <text x="500" y="70" text-anchor="middle" font-size="13" font-style="italic" fill="#9FB0C2">his identified elements, mapped onto the four circles</text>
+  <text x="500" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">Wei's Ikigai</text>
+  <text x="500" y="66" text-anchor="middle" font-size="13" font-style="italic" fill="#9FB0C2">his identified elements, mapped onto the four circles</text>
 
   <!-- four circles in diamond: Love top, Talent left, World Needs right, Values bottom -->
   <g style="mix-blend-mode:screen" stroke-width="2">
-    <circle cx="500" cy="340" r="205" fill="#FFB3BA" fill-opacity="0.28" stroke="#FFB3BA" stroke-opacity="0.5"/>
-    <circle cx="350" cy="490" r="205" fill="#88D8F4" fill-opacity="0.28" stroke="#88D8F4" stroke-opacity="0.5"/>
-    <circle cx="650" cy="490" r="205" fill="#66BF8C" fill-opacity="0.28" stroke="#66BF8C" stroke-opacity="0.5"/>
-    <circle cx="500" cy="640" r="205" fill="#A8E6CF" fill-opacity="0.28" stroke="#A8E6CF" stroke-opacity="0.5"/>
+    <circle cx="500" cy="350" r="205" fill="#FFB3BA" fill-opacity="0.28" stroke="#FFB3BA" stroke-opacity="0.5"/>
+    <circle cx="350" cy="500" r="205" fill="#88D8F4" fill-opacity="0.28" stroke="#88D8F4" stroke-opacity="0.5"/>
+    <circle cx="650" cy="500" r="205" fill="#66BF8C" fill-opacity="0.28" stroke="#66BF8C" stroke-opacity="0.5"/>
+    <circle cx="500" cy="650" r="205" fill="#A8E6CF" fill-opacity="0.28" stroke="#A8E6CF" stroke-opacity="0.5"/>
   </g>
 
-  <!-- circle category labels -->
-  <g text-anchor="middle" font-weight="700" font-size="16" letter-spacing="1">
-    <text x="500" y="150" fill="#FFB3BA">LOVE</text>
-    <text x="150" y="494" fill="#88D8F4">TALENT</text>
-    <text x="850" y="494" fill="#66BF8C">WORLD NEEDS</text>
-    <text x="500" y="856" fill="#A8E6CF">VALUES</text>
+  <!-- category labels at the outer tips, clear of the element pills -->
+  <g font-weight="700" font-size="16" letter-spacing="1">
+    <text x="500" y="124" text-anchor="middle" fill="#FFB3BA">LOVE</text>
+    <text x="104" y="505" text-anchor="middle" fill="#88D8F4">TALENT</text>
+    <text x="892" y="505" text-anchor="middle" fill="#66BF8C">WORLD NEEDS</text>
+    <text x="500" y="892" text-anchor="middle" fill="#A8E6CF">VALUES</text>
   </g>
 
-  <!-- element pills in each circle's outer lobe -->
+  <!-- element pills, pulled inboard so they never touch the labels -->
   <g font-size="11.5" text-anchor="middle">
     <!-- LOVE (top) -->
-    <rect x="422" y="166" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="182" fill="#1B263B">How people learn</text>
-    <rect x="422" y="194" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="210" fill="#1B263B">AI as amplifier</text>
-    <rect x="422" y="222" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="238" fill="#1B263B">Hard transitions</text>
+    <rect x="422" y="160" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="176" fill="#1B263B">How people learn</text>
+    <rect x="422" y="188" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="204" fill="#1B263B">AI as amplifier</text>
+    <rect x="422" y="216" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="232" fill="#1B263B">Hard transitions</text>
     <!-- TALENT (left) -->
-    <rect x="152" y="462" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="230" y="478" fill="#1B263B">Make complex clear</text>
-    <rect x="152" y="490" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="230" y="506" fill="#1B263B">Mentoring</text>
-    <rect x="152" y="518" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="230" y="534" fill="#1B263B">Break overwhelm down</text>
+    <rect x="177" y="470" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="255" y="486" fill="#1B263B">Make complex clear</text>
+    <rect x="177" y="498" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="255" y="514" fill="#1B263B">Mentoring</text>
+    <rect x="177" y="526" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="255" y="542" fill="#1B263B">Break overwhelm down</text>
     <!-- WORLD NEEDS (right) -->
-    <rect x="692" y="462" width="160" height="24" rx="12" fill="#FBF8F2"/><text x="772" y="478" fill="#1B263B">Help adapting to AI</text>
-    <rect x="692" y="490" width="160" height="24" rx="12" fill="#FBF8F2"/><text x="772" y="506" fill="#1B263B">Guidance in the shift</text>
-    <rect x="692" y="518" width="160" height="24" rx="12" fill="#FBF8F2"/><text x="772" y="534" fill="#1B263B">Reskilling support</text>
+    <rect x="667" y="470" width="160" height="24" rx="12" fill="#FBF8F2"/><text x="747" y="486" fill="#1B263B">Help adapting to AI</text>
+    <rect x="667" y="498" width="160" height="24" rx="12" fill="#FBF8F2"/><text x="747" y="514" fill="#1B263B">Guidance in the shift</text>
+    <rect x="667" y="526" width="160" height="24" rx="12" fill="#FBF8F2"/><text x="747" y="542" fill="#1B263B">Reskilling support</text>
     <!-- VALUES (bottom) -->
-    <rect x="422" y="742" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="758" fill="#1B263B">Contribution</text>
-    <rect x="422" y="770" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="786" fill="#1B263B">Growth</text>
-    <rect x="422" y="798" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="814" fill="#1B263B">Knowledge shared</text>
+    <rect x="422" y="766" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="782" fill="#1B263B">Contribution</text>
+    <rect x="422" y="794" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="810" fill="#1B263B">Growth</text>
+    <rect x="422" y="822" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="500" y="838" fill="#1B263B">Knowledge shared</text>
   </g>
 
-  <!-- intersection labels (dark text reads on the light blended lenses) -->
+  <!-- intersection labels -->
   <g text-anchor="middle" paint-order="stroke" stroke="#FBF8F2" stroke-width="2.5" stroke-linejoin="round">
-    <text x="402" y="406" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">PASSION</text>
-    <text x="402" y="423" font-size="11" fill="#1B263B">Explaining AI clearly</text>
+    <text x="405" y="410" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">PASSION</text>
+    <text x="405" y="427" font-size="11" fill="#1B263B">Explaining AI clearly</text>
 
-    <text x="598" y="406" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">MISSION</text>
-    <text x="598" y="423" font-size="11" fill="#1B263B">Calm in the AI shift</text>
+    <text x="595" y="410" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">MISSION</text>
+    <text x="595" y="427" font-size="11" fill="#1B263B">Calm in the AI shift</text>
 
-    <text x="402" y="566" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">PROFESSION</text>
-    <text x="402" y="583" font-size="11" fill="#1B263B">Teaching that lifts</text>
+    <text x="405" y="578" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">PROFESSION</text>
+    <text x="405" y="595" font-size="11" fill="#1B263B">Teaching that lifts</text>
 
-    <text x="598" y="566" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">VOCATION</text>
-    <text x="598" y="583" font-size="11" fill="#1B263B">Reskilling with dignity</text>
+    <text x="595" y="578" font-size="12" font-weight="700" letter-spacing="1.2" fill="#B5781E">VOCATION</text>
+    <text x="595" y="595" font-size="11" fill="#1B263B">Reskilling with dignity</text>
   </g>
 
   <!-- center: Ikigai = the true calling -->
-  <circle cx="500" cy="490" r="98" fill="url(#coreGlow)"/>
-  <circle cx="500" cy="490" r="76" fill="#0D1B2A" fill-opacity="0.72" stroke="#FDCB6E" stroke-opacity="0.55" stroke-width="1.5"/>
-  <text x="500" y="476" text-anchor="middle" font-size="20" font-weight="800" letter-spacing="1" fill="#FDCB6E">IKIGAI</text>
-  <text x="500" y="498" text-anchor="middle" font-size="10.5" fill="#FBF8F2">Turn the fear of the</text>
-  <text x="500" y="512" text-anchor="middle" font-size="10.5" fill="#FBF8F2">AI shift into clear</text>
-  <text x="500" y="526" text-anchor="middle" font-size="10.5" fill="#FBF8F2">next steps</text>
+  <circle cx="500" cy="500" r="98" fill="url(#coreGlow)"/>
+  <circle cx="500" cy="500" r="76" fill="#0D1B2A" fill-opacity="0.72" stroke="#FDCB6E" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="500" y="486" text-anchor="middle" font-size="20" font-weight="800" letter-spacing="1" fill="#FDCB6E">IKIGAI</text>
+  <text x="500" y="508" text-anchor="middle" font-size="10.5" fill="#FBF8F2">Turn the fear of the</text>
+  <text x="500" y="522" text-anchor="middle" font-size="10.5" fill="#FBF8F2">AI shift into clear</text>
+  <text x="500" y="536" text-anchor="middle" font-size="10.5" fill="#FBF8F2">next steps</text>
 </svg>
