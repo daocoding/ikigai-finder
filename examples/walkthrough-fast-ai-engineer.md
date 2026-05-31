@@ -294,6 +294,14 @@ flowchart TB
 
 ---
 
+## The final map — everything in one image
+
+The whole journey distilled onto the ikigai diagram itself: his identified elements fill the four circles, the pairwise overlaps name his Passion / Mission / Profession / Vocation, and his true calling sits at the center where all four meet. This is the keepsake — the three pillars he can know about himself (Love, Talent, Values) plus where the world meets them (World Needs).
+
+![Wei's filled ikigai map: the Love, Talent, Values, and World-Needs circles populated with his own elements; Passion, Mission, Profession, and Vocation named at the overlaps; his calling at the center.](../assets/examples/ikigai-final-engineer.svg)
+
+---
+
 ## Builder's verdict — does the extraction hold up?
 
 With every step exposed, you can check the work:

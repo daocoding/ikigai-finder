@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1000 940" xmlns="http://www.w3.org/2000/svg" font-family="'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0D1B2A"/><stop offset="1" stop-color="#1B263B"/></linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FDCB6E" stop-opacity="0.5"/><stop offset="1" stop-color="#FDCB6E" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="1000" height="940" rx="28" fill="url(#bg)"/>
+
+  <text x="500" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#FFFFFF">Wei's Ikigai</text>
+  <text x="500" y="70" text-anchor="middle" font-size="13" font-style="italic" fill="#9FB0C2">his identified elements, mapped onto the four circles</text>
+
+  <!-- four circles -->
+  <g style="mix-blend-mode:screen" stroke-width="2">
+    <circle cx="370" cy="358" r="258" fill="#FFB3BA" fill-opacity="0.28" stroke="#FFB3BA" stroke-opacity="0.5"/>
+    <circle cx="630" cy="358" r="258" fill="#88D8F4" fill-opacity="0.28" stroke="#88D8F4" stroke-opacity="0.5"/>
+    <circle cx="370" cy="618" r="258" fill="#A8E6CF" fill-opacity="0.28" stroke="#A8E6CF" stroke-opacity="0.5"/>
+    <circle cx="630" cy="618" r="258" fill="#66BF8C" fill-opacity="0.28" stroke="#66BF8C" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- circle category labels -->
+  <g text-anchor="middle" font-weight="700" font-size="16" letter-spacing="1">
+    <text x="258" y="190" fill="#FFB3BA">LOVE</text>
+    <text x="742" y="190" fill="#88D8F4">TALENT</text>
+    <text x="258" y="800" fill="#A8E6CF">VALUES</text>
+    <text x="742" y="800" fill="#66BF8C">WORLD NEEDS</text>
+  </g>
+
+  <!-- element pills in each circle's outer lobe -->
+  <g font-size="11.5" text-anchor="middle">
+    <!-- LOVE (top-left) -->
+    <rect x="180" y="205" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="258" y="221" fill="#1B263B">How people learn</text>
+    <rect x="180" y="233" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="258" y="249" fill="#1B263B">AI as amplifier</text>
+    <rect x="180" y="261" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="258" y="277" fill="#1B263B">Hard transitions</text>
+    <!-- TALENT (top-right) -->
+    <rect x="664" y="205" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="742" y="221" fill="#1B263B">Make complex clear</text>
+    <rect x="664" y="233" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="742" y="249" fill="#1B263B">Mentoring</text>
+    <rect x="664" y="261" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="742" y="277" fill="#1B263B">Break overwhelm into steps</text>
+    <!-- VALUES (bottom-left) -->
+    <rect x="180" y="678" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="258" y="694" fill="#1B263B">Contribution</text>
+    <rect x="180" y="706" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="258" y="722" fill="#1B263B">Growth</text>
+    <rect x="180" y="734" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="258" y="750" fill="#1B263B">Knowledge shared</text>
+    <!-- WORLD NEEDS (bottom-right) -->
+    <rect x="664" y="678" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="742" y="694" fill="#1B263B">Help adapting to AI</text>
+    <rect x="664" y="706" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="742" y="722" fill="#1B263B">Clear guidance in the shift</text>
+    <rect x="664" y="734" width="156" height="24" rx="12" fill="#FBF8F2"/><text x="742" y="750" fill="#1B263B">Reskilling support</text>
+  </g>
+
+  <!-- intersection labels (dark text reads on the light blended lenses) -->
+  <g text-anchor="middle" paint-order="stroke" stroke="#FBF8F2" stroke-width="2.5" stroke-linejoin="round">
+    <text x="500" y="250" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B5781E">PASSION</text>
+    <text x="500" y="268" font-size="11.5" fill="#1B263B">Explaining AI clearly</text>
+
+    <text x="250" y="464" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B5781E">MISSION</text>
+    <text x="250" y="482" font-size="11.5" fill="#1B263B">Pay it forward</text>
+
+    <text x="750" y="464" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B5781E">PROFESSION</text>
+    <text x="750" y="482" font-size="11.5" fill="#1B263B">AI enablement</text>
+
+    <text x="500" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B5781E">VOCATION</text>
+    <text x="500" y="708" font-size="11.5" fill="#1B263B">Help the displaced adapt</text>
+  </g>
+
+  <!-- center: Ikigai = the true calling -->
+  <circle cx="500" cy="488" r="96" fill="url(#coreGlow)"/>
+  <circle cx="500" cy="488" r="74" fill="#0D1B2A" fill-opacity="0.72" stroke="#FDCB6E" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="500" y="474" text-anchor="middle" font-size="20" font-weight="800" letter-spacing="1" fill="#FDCB6E">IKIGAI</text>
+  <text x="500" y="496" text-anchor="middle" font-size="10.5" fill="#FBF8F2">Turn the fear of the</text>
+  <text x="500" y="510" text-anchor="middle" font-size="10.5" fill="#FBF8F2">AI shift into clear</text>
+  <text x="500" y="524" text-anchor="middle" font-size="10.5" fill="#FBF8F2">next steps</text>
+</svg>
