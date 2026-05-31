@@ -10,17 +10,17 @@ It's a faithful, open-source encoding of Jinpei Yagi's **self-understanding meth
 
 ## What is Ikigai?
 
-*Ikigai* is a Japanese idea that translates, roughly, as "a reason to get up in the morning" — the thing that makes a life feel worth living. It's often pictured as the overlap of four circles:
+*Ikigai* is a Japanese idea that translates, roughly, as "a reason to get up in the morning" — the thing that makes a life feel worth living. It's pictured as the overlap of four circles — **Love** (top), **Talent** (left), **World Needs** (right), and **Values** (bottom):
 
-![The Ikigai Venn: four overlapping circles — Love, Talent, Value, and Needs — with Passion, Mission, Profession, and Vocation at the pairwise overlaps and Ikigai at the center where all four meet.](assets/ikigai.svg)
+![The Ikigai Venn, canonical diamond layout: four overlapping circles — Love at the top, Talent on the left, World Needs on the right, Values at the bottom — with Passion, Mission, Profession, and Vocation at the pairwise overlaps and Ikigai at the center where all four meet.](assets/ikigai.svg)
 
 - **Love** + **Talent** → your **Passion**
-- **Love** + **Value** → your **Mission**
-- **Talent** + **Needs** → your **Profession**
-- **Value** + **Needs** → your **Vocation**
+- **Love** + **World Needs** → your **Mission**
+- **Talent** + **Values** → your **Profession**
+- **World Needs** + **Values** → your **Vocation**
 - where all four meet → your **Ikigai**
 
-That's the familiar picture. *Finding* yours is the hard part — and that's what this repo does. It runs **Jinpei Yagi's self-understanding method**, which works from the inside out: investigate the three things you can actually know about yourself — **what you love, what you're good at, and what you value** — to name your true calling (stated as an activity, with no job title), then find the **means** to live it out in the world. Your calling is found inside you; the means are found outside, where your gifts meet what the world needs.
+That's the familiar picture. *Finding* yours is the hard part — and that's what this repo does. It runs **Jinpei Yagi's self-understanding method**, which works from the inside out: investigate the three things you can actually know about yourself — **what you love, what you're good at, and what you value** — to name your true calling (stated as an activity, with no job title), then find the **means** to live it out in the world. Your calling is found inside you; the means are found outside, in the **World Needs** circle — where your gifts meet what the world needs.
 
 ---
 
@@ -113,7 +113,7 @@ examples/
   walkthrough-fast-language-teacher.md ← A fast run: an immigrant language teacher (new baby + green card).
   walkthrough-fast-empty-nester.md     ← A fast run: a stay-at-home mom whose kids just left for college.
 assets/
-  ikigai.svg                      ← The diagram above — the Ikigai Venn (matches the BECoach app).
+  ikigai.svg                      ← The diagram above — the Ikigai Venn (canonical diamond layout).
   templates/mindmap.svg           ← Fillable mind-map keepsake (values / talents / love).
   examples/*.svg                  ← Rendered example maps (the engineer and language-teacher runs).
 ```
