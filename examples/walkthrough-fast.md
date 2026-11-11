@@ -21,7 +21,7 @@ A compressed sample run so you can see the shape. Real sessions are longer and m
 **Maya:** Oof. Yeah.
 
 ### Talents (rated ◎/○/△)
-*(5 questions)* → **Reading what a person needs before they say it ◎** (strength: deep empathy · shadow: absorbs others' stress) · **Turning messes into clear next steps ○** · **Making quiet people talk ◎** (strength: draws out honesty · shadow: can neglect her own view).
+*(5 questions)* → **Reading what a person needs before they say it ◎** (strength: deep empathy · shadow: absorbs others' stress) · **Turning messes into clear next steps ○** · **Making quiet people talk ◎** (strength: draws out what others feel · shadow: can neglect her own view).
 
 ### Love (domains)
 *(5 questions)* → **psychology 🔥, team/organizational culture 🔥, writing, education.** ("I read org-psych books for fun. I get angry when good people quit because no one listened.")

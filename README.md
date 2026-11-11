@@ -101,9 +101,9 @@ questionnaires/
   fast.md            ← 15 questions.
   full.md            ← 90 questions + 8 angles.
 reference/
-  values-100.md      ← The 100 official values + trap values.
-  talents-100.md     ← The 100 talents, each with its strength & shadow.
-  interests-100.md   ← 100 interest domains, grouped.
+  values-100.md      ← The 100 official values (JP / EN / ZH) + trap values.
+  talents-100.md     ← The 100 talents (JP / EN / ZH), each with strength & shadow.
+  interests-100.md   ← 100 interest domains (JP / EN / ZH), grouped.
 templates/
   ikigai-result.md   ← The summary the agent fills in for you at the end.
 examples/
