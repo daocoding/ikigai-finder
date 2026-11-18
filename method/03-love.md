@@ -13,7 +13,7 @@ A "love" here = a domain you're drawn to learn about and think about, **for its 
 ## Run it
 
 1. Ask the love questions for their path from [`../questionnaires/fast.md`](../questionnaires/fast.md) / [`../questionnaires/full.md`](../questionnaires/full.md). One at a time; reflect back.
-2. Map answers to the domains in [`../reference/interests-100.md`](../reference/interests-100.md) (90 fields, grouped). Again — vocabulary, not cage. If their real love is "the psychology of money" and that's a blend, keep the blend.
+2. Map answers to the domains in [`../reference/interests-100.md`](../reference/interests-100.md) (100 domains, each placed in one of 12 groups). Again — vocabulary, not cage. If their real love is "the psychology of money" and that's a blend, keep the blend.
 3. Gauge **intensity** for each — is this a mild "sure, that's interesting" or a "I can't *not* think about this"? Note the hot ones.
 4. Collect **3–6 domains**, with the strongest pulls marked.
 

@@ -14,18 +14,22 @@ We do values **first** on purpose: it gives you the lens for everything that fol
 
 ## Trap values — the most important move in this stage
 
-Some values are **surface wants that hide a deeper value**. If you accept them at face value you'll build a hollow calling. When a top value is one of these, **probe** until you reach what's underneath:
+Some values are **surface wants that hide a deeper value**. If you accept them at face value you'll build a hollow calling. When a top value is one of these, **probe** until you reach what's underneath. Names here are the official catalog labels:
 
 | Trap value | Probe | Often underneath |
 |---|---|---|
-| **Wealth** | "Money is a tool. What does having it let you *feel* or *do*?" | Freedom, Security, Comfort, Independence |
-| **Fame** | "Fame depends on others. If you were famous, what would that let you do?" | Impact, Connection, Expression, Recognition |
-| **Popularity** | "What do you get from being liked?" | Belonging, Safety, Connection, Acceptance |
-| **Being Loved** | "'Being loved' is passive. What's the active value you want to *create*?" | Connection, Loving, Intimacy, Belonging |
-| **Victory** | "Victory is a moment. What do you enjoy *during* the competition?" | Growth, Mastery, Challenge |
-| **Achievement** | "After you hit the goal, how do you want to *feel*?" | Contribution, Self-worth, Growth, Purpose |
-| **Authority** | "We can't really control others. What does authority let you *exercise*?" | Leadership, Responsibility, Impact, Service |
-| **Correctness** | "Needing to be right is often fear of being wrong. Is it Integrity or Truth you want?" | Integrity, Truth, Honesty |
+| **Wealth** | "Money is a tool. Having it lets you feel — what?" | Freedom, Peace of Mind, Comfort, Independence |
+| **Abundance** | "What does abundance protect you from? Is it Peace of Mind?" | Peace of Mind, Freedom |
+| **Fame** | "Fame depends on others. If you were famous, what would that let you do?" | Influence, Expression |
+| **Popularity** | "Popularity is being liked. What do you get from being liked?" | Acceptance, Peace of Mind, Loving |
+| **Being Loved** | "'Being loved' is passive. What active value do you want to create?" | Loving, Intimacy |
+| **Victory** | "Victory is fleeting. What do you enjoy *during* the competition?" | Growth, Mastery, Challenge |
+| **Achievement** | "After you achieve the goal, how do you want to feel?" | Contribution, Growth, Purpose |
+| **Authority** | "We can't control others. What does authority let you exercise?" | Responsibility, Influence, Service |
+
+**Correctness** (#2, 正確性 / 正确性) is an ordinary list item: conveying one's opinions and beliefs correctly. Keep it when that is what the person means.
+
+Two nearby labels stay distinct. **Sincerity** (#24, 誠実) is good faith toward the people you deal with. **Honesty** (#38, 正直さ) is living without lying. When someone says "integrity," map it by that sense onto Sincerity or Honesty.
 
 The full set of probes is in [`../reference/values-100.md`](../reference/values-100.md). The pattern: **a value that depends on other people's reactions, or is just a means to something else, is a trap — dig one level down.**
 
